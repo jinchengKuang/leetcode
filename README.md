@@ -4,9 +4,5 @@
 
 |  #  | Title | Solution | Difficulty | Tag |
 | --- | ----- | -------- | ---------- | --- |
-|  1  | Two Sum | C++ | Easy | Array / Hash Table |
+|  1  | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](https://github.com/jinchengKuang/leetcode/blob/main/c%2B%2B/1_Two_Sum.cpp) | Easy | Array / Hash Table |
 |  2  |  |
-|  3  |  |
-|  4  |  |
-|  5  |  |
-|  6  |  |
