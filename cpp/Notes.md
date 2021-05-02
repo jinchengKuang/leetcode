@@ -12,3 +12,12 @@ Process:
 > My first submission is wrong because of test case s="(("
 
 > To improve, can use map for paired parentheses 
+
+### Q682 Baseball Game
+Used **stack** and **vector** to solve this problem.
+The problem's "related topics" gives "hint" to use stack, so I used stack as the first solution:
+1. iterate each string in the ops
+2. match each string and push or pop in the stack
+3. calculate the sum
+
+However, stack is not easy to check the last second element, so I used vector as a second solution. Similar process as stack but easier to deal with last second element and calculating sum.
