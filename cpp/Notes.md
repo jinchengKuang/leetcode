@@ -17,7 +17,22 @@ Process:
 Used **stack** and **vector** to solve this problem.
 The problem's "related topics" gives "hint" to use stack, so I used stack as the first solution:
 1. iterate each string in the ops
-2. match each string and push or pop in the stack
-3. calculate the sum
+   1. match each string and push or pop in the stack
+2. calculate the sum
 
 However, stack is not easy to check the last second element, so I used vector as a second solution. Similar process as stack but easier to deal with last second element and calculating sum.
+
+### Q1047 Remove All Adjacent Duplicates In String
+Easilly think of using **stack**, but find better solution using string only fron the discussion board.
+Process:
+1. iterate each char in the string S
+   1. if stack empty or matched top, then pop
+   2. else, push
+2. concat string
+3. reverse string and return
+
+
+> `while(!st.empty())` to iterate stack
+
+> `reverse(char, char)` to reverse string 
+
