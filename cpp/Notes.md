@@ -14,6 +14,19 @@ Process:
 
 > To improve, can use map for paired parentheses 
 
+### Q26 Remove Duplicates from Sorted Array
+Hint is "related topics" array and two pointers, immediately think of using left and right pointers to point at the current element
+
+Process:
+1. edge case: if size() is less than 1, then return size() directly
+2. two pointers, left and right, left is the "non-duplicate element's index", right is the "current element's index"
+3. loop every elements
+   1. if `nums[left] == nums[right]`, means duplicate, then right pointer move forward
+   2. if not, means non-duplicate, the left pointer move forward, and write the new value, then right pointer move forward
+3. return `left + 1`
+
+> One line solutions from the discussion forum: `return unique(nums.begin(),nums.end()) - nums.begin();` and `return std::distance(nums.begin(), std::unique(nums.begin(), nums.end()));`
+
 ### Q682 Baseball Game
 Used **stack** and **vector** to solve this problem.
 
@@ -38,16 +51,3 @@ Process:
 > `while(!st.empty())` to iterate stack
 
 > `reverse(char, char)` to reverse string 
-
-### Q26 Remove Duplicates from Sorted Array
-Hint is "related topics" array and two pointers, immediately think of using left and right pointers to point at the current element
-
-Process:
-1. edge case: if size() is less than 1, then return size() directly
-2. two pointers, left and right, left is the "non-duplicate element's index", right is the "current element's index"
-3. loop every elements
-   1. if `nums[left] == nums[right]`, means duplicate, then right pointer move forward
-   2. if not, means non-duplicate, the left pointer move forward, and write the new value, then right pointer move forward
-3. return `left + 1`
-
-> One line solutions from the discussion forum: `return unique(nums.begin(),nums.end()) - nums.begin();` and `return std::distance(nums.begin(), std::unique(nums.begin(), nums.end()));`
