@@ -32,13 +32,13 @@ class Solution {
    * Recursive
    * */
 public:
-  vector<int> inorderTraversal1(TreeNode *root) {
+  vector<int> inorderTraversal(TreeNode *root) {
     vector<int> res;
     traverse(root, res);
     return res;
   }
 
-  void traverse(TreeNode *cur, vector<int> vec) {
+  void traverse(TreeNode *cur, vector<int> &vec) {
     if (cur == nullptr) return;
     traverse(cur->left, vec);
     vec.emplace_back(cur->val);
