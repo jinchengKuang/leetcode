@@ -1,5 +1,6 @@
 # LeetCode
 Start (again) for leetcode...
+
 ## Problems & my Solutions
 
 | #    | Title                                                                                                                           | Solution                                                                                                              | Difficulty | Tag                                |
@@ -13,6 +14,7 @@ Start (again) for leetcode...
 | 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)                           | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0102_Binary_Tree_Level_Order_Traversal.cpp)             | Medium     | `Tree` `BFS` `Binary Tree`         |
 | 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                                     | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0104_Maximum_Depth_of_Binary_Tree.cpp)                  | Easy       | `Tree` `DFS` `BFS` `Binary Tree`   |
 | 0107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)                     | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0107_Binary_Tree_Level_Order_Traversal_2.cpp)           | Medium     | `Tree` `BFS` `Binary Tree`         |
+| 0111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)                                     | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0111_Minimun_Depth_Of_Binary_Tree.cpp)                  | Easy       | `Tree` `DFS` `BFS` `Binary Tree`   |
 | 0116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)       | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0116_Populating_Next_Right_Pointers_In_Each_Node.cpp)   | Medium     | `Tree` `DFS` `BFS` `Binary Tree`   |
 | 0117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0117_Populating_Next_Right_Pointers_In_Each_Node_2.cpp) | Medium     | `Tree` `DFS` `BFS` `Binary Tree`   |
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)                                 | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0144_Binary_Tree_Preorder_Traversal.cpp)                | Easy       | `Stack` `Tree` `DFS` `Binary Tree` |
