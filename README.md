@@ -1,4 +1,5 @@
 # LeetCode
+
 Start (again) for leetcode...
 
 ## Problems & my Solutions
@@ -24,6 +25,7 @@ Start (again) for leetcode...
 | 0199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)                                       | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0199_Binary_Tree_Right_Side_View.cpp)                   | Medium     | `Tree` `DFS` `BFS` `Binary Tree`                            |
 | 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                                                         | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0226_Invert_Binary_Tree.cpp)                            | Easy       | `Tree` `DFS` `BFS` `Binary Tree`                            |
 | 0429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)                             | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0429_N-ary_Tree_Level_Order_Traversal.cpp)              | Medium     | `Tree` `BFS`                                                |
+| 0559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)                                                         | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0559_Maximum_Depth_Of_N_ary_Tree.cpp)                           | Easy       | `Tree` `DFS` `BFS`                             |
 | 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)                                               | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0572_Subtree_Of_Another_Tree.cpp)                       | Easy       | `Tree` `DFS` `String Matching` `Binary Tree` `Hash Function` |
 | 0637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)                             | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0637_Average_Of_Levels_In_Binary_Tree.cpp)              | Easy       | `Tree` `DFS` `BFS` `Binary Tree`                            |
 | 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game/)                                                                   | [C++](https://github.com/jinchengKuang/leetcode/blob/main/cpp/0682_Baseball_Game.cpp)                                 | Easy       | `Stack`                                                     |
