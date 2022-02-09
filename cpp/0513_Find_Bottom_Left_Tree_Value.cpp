@@ -28,9 +28,33 @@ struct TreeNode {
 class Solution {
 public:
   /*
-   * 1st solution level order iterative
+   * 1st solution recursive
    * */
+  int maxDepth = -1;
+  int res;
+
+  void traversal(TreeNode *root, int depth) {
+    if (!root->left && !root->right) {
+      if (depth > maxDepth) {
+        maxDepth = depth;
+        res = root->val;
+      }
+      return;
+    }
+    if (root->left) traversal(root->left, depth + 1);
+    if (root->right) traversal(root->right, depth + 1);
+    return;
+  }
+
   int findBottomLeftValue(TreeNode *root) {
+    traversal(root, 0);
+    return res;
+  }
+
+  /*
+   * 2nd solution level order iterative
+   * */
+  int findBottomLeftValue2(TreeNode *root) {
     queue < TreeNode * > q;
     q.emplace(root);
     int res = 0;
