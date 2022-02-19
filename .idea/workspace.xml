@@ -9,7 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa87532-a6b9-4c7d-825c-23ad1a491ce4" name="Changes" comment="#977" />
+    <list default="true" id="0fa87532-a6b9-4c7d-825c-23ad1a491ce4" name="Changes" comment="binary tree">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +100,7 @@
       <workItem from="1644547639456" duration="229000" />
       <workItem from="1644635852870" duration="1399000" />
       <workItem from="1644723240721" duration="78000" />
-      <workItem from="1644785483241" duration="19385000" />
+      <workItem from="1644785483241" duration="19468000" />
     </task>
     <task id="LOCAL-00001" summary="#1 two sum">
       <created>1643249425074</created>
@@ -401,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645243875082</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="binary tree">
+      <created>1645243923777</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1645243923777</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,9 +452,9 @@
     <MESSAGE value="#450" />
     <MESSAGE value="#704" />
     <MESSAGE value="#27" />
-    <MESSAGE value="binary tree" />
     <MESSAGE value="#977" />
-    <option name="LAST_COMMIT_MESSAGE" value="#977" />
+    <MESSAGE value="binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary tree" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
