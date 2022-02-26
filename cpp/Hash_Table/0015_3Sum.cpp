@@ -1,0 +1,34 @@
+#include <vector>
+#include <unordered_map>
+
+using namespace std;
+
+//leetcode submit region begin(Prohibit modification and deletion)
+class Solution {
+public:
+  /*
+   * 1st solution two pointers
+   * */
+  vector <vector<int>> threeSum(vector<int> &nums) {
+    vector <vector<int>> res;
+    sort(nums.begin(), nums.end());
+    for (int i = 0; i < nums.size(); ++i) {
+      if (nums[i] > 0) return res;
+      if (i > 0 && nums[i] == nums[i - 1]) continue;
+      int left = i + 1, right = nums.size() - 1;
+      while (right > left) {
+        if (nums[i] + nums[left] + nums[right] > 0) right--;
+        else if (nums[i] + nums[left] + nums[right] < 0) left++;
+        else {
+          res.emplace_back(vector < int > {nums[i], nums[left], nums[right]});
+          while (right > left && nums[right] == nums[right - 1]) right--;
+          while (right > left && nums[left] == nums[left + 1]) left++;
+          left++;
+          right--;
+        }
+      }
+    }
+    return res;
+  }
+};
+//leetcode submit region end(Prohibit modification and deletion)
