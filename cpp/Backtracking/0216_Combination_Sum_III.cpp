@@ -8,21 +8,23 @@ private:
   vector<int> path;
   vector <vector<int>> res;
 
-  void backtracking(int n, int k, int start) {
+  void backtracking(int k, int targetSum, int sum, int start) {
     if (path.size() == k) {
-      res.push_back(path);
+      if (sum == targetSum) res.push_back(path);
       return;
     }
-    for (int i = start; i < n - (k - path.size()); ++i) {
+    for (int i = start; i <= 9 - (k - path.size()) + 1; ++i) {
+      sum += i;
       path.push_back(i);
-      backtracking(n, k, i + 1);
+      backtracking(k, targetSum, sum, i + 1);
+      sum -= i;
       path.pop_back();
     }
   }
 
 public:
-  vector <vector<int>> combine(int n, int k) {
-    backtracking(n, k, 1);
+  vector <vector<int>> combinationSum3(int k, int n) {
+    backtracking(k, n, 0, 1);
     return res;
   }
 };
