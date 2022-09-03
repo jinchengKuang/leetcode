@@ -35,3 +35,5 @@
 .CMakeLists.txt
 /.idea
 .gitignore
+.DS_Store
+cpp/.DS_Store
