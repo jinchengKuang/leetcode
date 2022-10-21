@@ -22,3 +22,20 @@ class Solution:
             cur = temp
         small.next = dummy2.next
         return dummy1.next
+
+# class Solution:
+#     def partition(self, head: Optional[ListNode], x: int) -> Optional[ListNode]:
+#         small = dummy1 = ListNode()
+#         large = dummy2 = ListNode()
+#         while head:
+#             if head.val < x:
+#                 small.next = head
+#                 small = small.next
+#             else:
+#                 large.next = head
+#                 large = large.next
+#             head = head.next
+#         large.next = None
+#         small.next = dummy2.next
+#         return dummy1.next
+
