@@ -6,6 +6,7 @@ class ListNode:
 
 
 class Solution:
+    # iterative
     def reverseList(self, head: [ListNode]) -> [ListNode]:
         cur = head
         pre = None
@@ -16,6 +17,15 @@ class Solution:
             cur = temp
         return pre
 
+    #recursive
+    def reverseList2(self, head: [ListNode]) -> [ListNode]:
+        if not head or not head.next:
+            return head
+        else:
+            last_node = self.reverseList2(head.next)
+            head.next.next = head
+            head.next = None
+        return last_node
 
 def to_linked_list(iterable):
     head = None
