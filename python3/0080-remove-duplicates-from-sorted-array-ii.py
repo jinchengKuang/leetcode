@@ -14,3 +14,14 @@ class Solution:
             if fast < len(nums) and nums[fast] != nums[fast - 1]:
                 count = 0
         return slow + 1
+
+    def removeDuplicates2(self, nums: List[int]) -> int:
+        if len(nums) <= 2:
+            return len(nums)
+        slow = fast = 2
+        while fast < len(nums):
+            if nums[fast] != nums[slow - 2]:
+                nums[slow] = nums[fast]
+                slow += 1
+            fast += 1
+        return slow
